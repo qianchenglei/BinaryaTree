@@ -21,5 +21,5 @@ void InOrder(const SqBinaryTree *T, int index);
 void PostOrder(const SqBinaryTree *T, int index);
 int  NodeCount(const SqBinaryTree *T);
 int  LeafCount(const SqBinaryTree *T);
-int  IsComplete(const SqBinaryTree *T);
+bool  IsComplete(const SqBinaryTree *T);
 #endif
